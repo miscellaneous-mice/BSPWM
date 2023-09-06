@@ -4,7 +4,7 @@
 - First install Arch linux
 - ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev```
 - ```sudo pacman -S picom bspwm polybar sxhkd dunst feh alacritty```
-- - ```git clone https://github.com/miscellaneous-mice/BSPWM.git```
+- ```git clone https://github.com/miscellaneous-mice/BSPWM.git```
 - copy the init files from BSPWM to home folder and delete duplicate default files
 - reboot by ```sudo reboot```
 - cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom dunst```
