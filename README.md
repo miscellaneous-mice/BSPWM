@@ -45,4 +45,3 @@
 
 ## References
 - ```https://www.youtube.com/watch?v=XTcf8g54RuU```
-- ```https://travishorn.com/the-xmonad-window-manager-on-arch-linux```
