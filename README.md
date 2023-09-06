@@ -17,12 +17,6 @@
   -> cp /BSPWM/polybar/config.ini ~/.config/polybar/
   -> cp /etc/dunst/dunstrc ~/.config/dunst/
   ```
-  
-
-## Config files
-- Custom commands -> same as Xmonad
-- In ~/.xinitrc file at the top of the file xrandr --output Virtual-1 --mode 1920x1080
-
 
 ## Packages
 - code
@@ -39,8 +33,16 @@
 - Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts
 - Starship ```(https://starship.rs/)```
 
-## Optional
-Turning on firewall
-- ```sudo pacman -S ufw```
-- ```sudo systemctl enable ufw```
-- ```sudo systemctl start ufw```
+## Optional 
+- Turning on firewall: 
+  - ```sudo pacman -S ufw```
+  - ```sudo systemctl enable ufw```
+  - ```sudo systemctl start ufw```
+  
+- Turning on Pacman animation:
+  - ```sudo vim /etc/pacman.conf```
+  - Below "Parallel Downloads add ```ILoveCandy```
+
+## References
+- ```https://www.youtube.com/watch?v=XTcf8g54RuU```
+- ```https://travishorn.com/the-xmonad-window-manager-on-arch-linux```
