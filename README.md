@@ -40,7 +40,7 @@
 - Starship ```(https://starship.rs/)```
 
 ## Optional
-- Turning on firewall
-```sudo pacman -S ufw```
-```sudo systemctl enable ufw```
-```sudo systemctl start ufw```
+Turning on firewall
+- ```sudo pacman -S ufw```
+- ```sudo systemctl enable ufw```
+- ```sudo systemctl start ufw```
