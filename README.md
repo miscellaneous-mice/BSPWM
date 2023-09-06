@@ -41,6 +41,6 @@
 
 ## Optional
 - Turning on firewall
-  ->```sudo pacman -S ufw```
-  ->```sudo systemctl enable ufw```
-  ->```sudo systemctl start ufw```
+```sudo pacman -S ufw```
+```sudo systemctl enable ufw```
+```sudo systemctl start ufw```
