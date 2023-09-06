@@ -38,3 +38,9 @@
 - nord icons ```(https://www.xfce-look.org/p/1937741)```  -> Load into ~/.icons
 - Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts
 - Starship ```(https://starship.rs/)```
+
+## Optional
+- Turning on firewall
+  ->```sudo pacman -S ufw```
+  ->```sudo systemctl enable ufw```
+  ->```sudo systemctl start ufw```
