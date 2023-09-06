@@ -15,7 +15,7 @@
 - rofi
 - polybar
 - lxappearance
-- nord theme ```(https://www.xfce-look.org/p/1267246/)```
-- nord icons ```(https://www.xfce-look.org/p/1937741)```
-- Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)```
+- nord theme ```(https://www.xfce-look.org/p/1267246/)``` -> Load into ~/.themes
+- nord icons ```(https://www.xfce-look.org/p/1937741)```  -> Load into ~/.icons
+- Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts
 - Starship ```(https://starship.rs/)```
