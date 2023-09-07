@@ -23,6 +23,9 @@
     ~/.config/polybar
     ~/.config/dunst
     ~/.config/rofi
+    ~/.themes
+    ~/.icons
+    ~/.fonts
   - Else mkdir these folders
 
   - Make the custom commands folder
