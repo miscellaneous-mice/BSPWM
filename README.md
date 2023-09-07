@@ -66,7 +66,7 @@
 ## Note
 - In BSPWM/.xinitrc file replace the display name and resolution with yours
 ``` xrandr --output display-name --mode resolution```
-- *You can find this by just typing ```xrandr```*
+- *You can find display by just typing ```xrandr```*
 - The shorcuts definition specified in comments may be wrong so kindly verify the code
 
 ## References
