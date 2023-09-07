@@ -1,6 +1,7 @@
 # BSPWM
 
 *This is a minimal install*
+
 ![BSPWM](https://github.com/miscellaneous-mice/BSPWM/assets/79500624/a222e133-3118-4060-b330-66baeb6fb99c)
 
 ## BSPWM Installation
