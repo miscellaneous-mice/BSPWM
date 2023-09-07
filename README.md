@@ -30,6 +30,8 @@
   ```
   -> cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
   -> cp ~/BSPWM/sxkhd ~/.config/sxkhd/
+  -> cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
+  -> cp ~/BSPWM/alacritty/alacritty.ywm ~/.config/alacritty/
   -> cp /etc/xdg/picom.conf ~/.config/picom/
   -> cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
   -> cp ~/etc/dunst/dunstrc ~/.config/dunst/
