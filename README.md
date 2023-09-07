@@ -12,7 +12,6 @@
   ```
   cp ~/BSPWM/init_files/.bashrc ~/BSPWM/init_files/.xinitrc ~/
   ```
-- reboot by ```sudo reboot```
 - cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom dunst```
 - Make these folder
   ```
@@ -36,6 +35,7 @@
   -> cp ~/etc/dunst/dunstrc ~/.config/dunst/
   -> cp ~/BSPWM/custom_commands/.my_custom_commands ~/custom_commands/
   ```
+- Reboot ```sudo reboot```
 
 ## Packages
 - code -> VScode
