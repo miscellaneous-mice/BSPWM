@@ -22,6 +22,7 @@
     ~/.config/picom
     ~/.config/polybar
     ~/.config/dunst
+    ~/.config/rofi
   - Else mkdir these folders
 
   - Make the custom commands folder
