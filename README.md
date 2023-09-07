@@ -19,15 +19,15 @@
 - Folder configuration
   ```
   - See which folder are missing before going to the next step
-    ~/.config/bspwm
-    ~/.config/sxkhd
-    ~/.config/picom
-    ~/.config/polybar
-    ~/.config/dunst
-    ~/.config/rofi
-    ~/.themes
-    ~/.icons
-    ~/.fonts
+    ~/.config/bspwm/
+    ~/.config/sxkhd/
+    ~/.config/picom/
+    ~/.config/polybar/
+    ~/.config/dunst/
+    ~/.config/rofi/
+    ~/.themes/
+    ~/.icons/
+    ~/.fonts/
   - Else mkdir these folders
 
   - Make the custom commands folder
@@ -36,7 +36,7 @@
 - Now to copy default config files into .config folder :
   ```
   -> cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
-  -> cp ~/BSPWM/sxkhd ~/.config/sxkhd/
+  -> cp ~/BSPWM/sxkhd/sxkhdrc ~/.config/sxkhd/
   -> cp ~/BSPWM/rofi/config.rasi ~/BSPWM/rofi/nord.rasi ~/.config/rofi/ 
   -> cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
   -> cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
