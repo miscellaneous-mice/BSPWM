@@ -23,6 +23,7 @@
 
 ## Packages
 - code -> VScode
+- feh -> Used to set wallpaper
 - firefox -> Browser duuuh
 - thunar -> File manager
 - alsamixer -> Used to control audio levels using our terminal
