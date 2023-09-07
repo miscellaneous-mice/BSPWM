@@ -33,15 +33,5 @@
 - Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts
 - Starship ```(https://starship.rs/)```
 
-## Optional 
-- Turning on firewall: 
-  - ```sudo pacman -S ufw```
-  - ```sudo systemctl enable ufw```
-  - ```sudo systemctl start ufw```
-  
-- Turning on Pacman animation:
-  - ```sudo vim /etc/pacman.conf```
-  - Below "Parallel Downloads add ```ILoveCandy```
-
 ## References
 - ```https://www.youtube.com/watch?v=XTcf8g54RuU```
