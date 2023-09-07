@@ -12,6 +12,19 @@
 - reboot by ```sudo reboot```
 - cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom dunst```
 - ```cd BSPWM```
+- Make these folder
+```
+- See which folder are missing before going to the next step
+  ~/.config/bspwm
+  ~/.config/sxkhd
+  ~/.config/picom
+  ~/.config/polybar
+  ~/.config/dunst
+- Else mkdir these folders
+
+- Make the custom commands folder
+  mkdir ~/custom_commands
+```
 - Now to copy default config files into .config folder :
   ```
   -> cp /BSPWM/bspwm/bspwmrc ~/.config/bspwm/
