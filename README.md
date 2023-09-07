@@ -11,7 +11,6 @@
 - copy the init files from BSPWM to home folder and delete duplicate default files
 - reboot by ```sudo reboot```
 - cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom dunst```
-- ```cd BSPWM```
 - Make these folder
   ```
   - See which folder are missing before going to the next step
