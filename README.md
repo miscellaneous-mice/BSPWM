@@ -10,7 +10,8 @@
 - Install the specified packages given below. Feel free to choose
 - copy the init files from BSPWM to home folder and delete duplicate default files
   ```
-  cp ~/BSPWM/init_files/.bashrc ~/BSPWM/init_files/.xinitrc ~/
+  cp ~/BSPWM/init_files/.bashrc ~/
+  cp ~/BSPWM/init_files/.xinitrc ~/
   ```
 - cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom dunst```
 - Folder configuration
