@@ -1,5 +1,7 @@
 # BSPWM
 
+** This is a minimal install **
+
 ## BSPWM Installation
 - First install Arch linux
 - ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev git```
