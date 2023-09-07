@@ -1,6 +1,6 @@
 # BSPWM
 
-** This is a minimal install **
+*This is a minimal install*
 
 ## BSPWM Installation
 - First install Arch linux
