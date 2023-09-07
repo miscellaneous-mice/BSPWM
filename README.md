@@ -66,7 +66,7 @@
 
 ## Note
 - At the start I've install xf86-video-fbdev, but check which graphics driver you use and install that appropriately. If graphics drivers installed then skip this.
-- In BSPWM/.xinitrc file replace the display name and resolution with yours
+- In BSPWM/init_files/.xinitrc file replace the display name and resolution with yours
 ``` xrandr --output display-name --mode resolution```
 - *You can find display by just typing ```xrandr```*
 - The shorcuts definition specified in comments may be wrong so kindly verify the code
