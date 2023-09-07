@@ -13,7 +13,7 @@
   cp ~/BSPWM/init_files/.bashrc ~/BSPWM/init_files/.xinitrc ~/
   ```
 - cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom dunst```
-- Make these folder
+- Folder configuration
   ```
   - See which folder are missing before going to the next step
     ~/.config/bspwm
