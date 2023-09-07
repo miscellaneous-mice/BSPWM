@@ -47,6 +47,7 @@
   -> cp ~/BSPWM/custom_commands/.my_custom_commands.sh ~/custom_commands/
   ```
 - Reboot ```sudo reboot```
+- Use lxappearance to apply the install the installed themes, icons and fonts.
 
 ## Dependencies
 - code -> VScode
