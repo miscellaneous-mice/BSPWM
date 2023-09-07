@@ -27,12 +27,12 @@
   ```
 - Now to copy default config files into .config folder :
   ```
-  -> cp /BSPWM/bspwm/bspwmrc ~/.config/bspwm/
-  -> cp /BSPWM/sxkhd ~/.config/sxkhd/
+  -> cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
+  -> cp ~/BSPWM/sxkhd ~/.config/sxkhd/
   -> cp /etc/xdg/picom.conf ~/.config/picom/
-  -> cp /BSPWM/polybar/config.ini ~/.config/polybar/
-  -> cp /etc/dunst/dunstrc ~/.config/dunst/
-  -> cp BSPWM/custom_commands/.my_custom_commands ~/custom_commands/
+  -> cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
+  -> cp ~/etc/dunst/dunstrc ~/.config/dunst/
+  -> cp ~/BSPWM/custom_commands/.my_custom_commands ~/custom_commands/
   ```
 
 ## Packages
