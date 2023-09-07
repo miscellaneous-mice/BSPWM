@@ -11,7 +11,7 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
-feh --bg-fill /home/megame/Downloads/blue.png
+feh --bg-fill /home/megame/BSPWM/BSPWM/blue.png
 
 #Autostart applications
 sxhkd &
