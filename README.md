@@ -6,6 +6,7 @@
 
 ## BSPWM Installation
 - First install Arch linux
+- Go through the notes given at the end of the page
 - ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev git```
 - ```sudo pacman -S picom bspwm polybar sxhkd dunst feh alacritty```
 - ```git clone https://github.com/miscellaneous-mice/BSPWM.git```
