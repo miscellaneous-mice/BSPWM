@@ -19,7 +19,7 @@
   -> cp /etc/xdg/picom.conf ~/.config/picom/
   -> cp /BSPWM/polybar/config.ini ~/.config/polybar/
   -> cp /etc/dunst/dunstrc ~/.config/dunst/
-  -> cp Xmonad/custom_commands/.my_custom_commands ~/custom_commands/
+  -> cp BSPWM/custom_commands/.my_custom_commands ~/custom_commands/
   ```
 
 ## Packages
