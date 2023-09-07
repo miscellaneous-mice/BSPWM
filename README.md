@@ -32,7 +32,7 @@
   - Else mkdir these folders
 
   - Make the custom commands folder
-      mkdir ~/custom_commands
+      mkdir ~/custom_commands/
   ```
 - Now to copy default config files into .config folder :
   ```
