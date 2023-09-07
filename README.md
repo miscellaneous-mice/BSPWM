@@ -9,6 +9,9 @@
 - ```git clone https://github.com/miscellaneous-mice/BSPWM.git```
 - Install the specified packages given below. Feel free to choose
 - copy the init files from BSPWM to home folder and delete duplicate default files
+  ```
+  cp ~/BSPWM/init_files/.bashrc ~/BSPWM/init_files/.xinitrc ~/
+  ```
 - reboot by ```sudo reboot```
 - cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom dunst```
 - Make these folder
