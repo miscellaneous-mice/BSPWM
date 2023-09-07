@@ -9,7 +9,7 @@
 - Go through the notes given at the end of the page
 - ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev git```
 - ```sudo pacman -S picom bspwm polybar sxhkd dunst feh alacritty```
-- ```git clone https://github.com/miscellaneous-mice/BSPWM.git```
+- ```git clone https://github.com/miscellaneous-mice/BSPWM.git``` (In the home directory)
 - Install the following dependencies given below. Feel free to choose
 - copy the init files from BSPWM to home folder and delete duplicate default files
   ```
