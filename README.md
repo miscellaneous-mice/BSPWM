@@ -56,5 +56,9 @@
 - Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts (create the folder using mkdir)
 - Starship ```(https://starship.rs/)``` -> This is the theme applied to our alacritty terminal
 
+## Note
+- In BSPWM/.xinitrc file replace the display name and resolution with yours
+``` xrandr --output display-name --mode resolution```
+
 ## References
 - ```https://www.youtube.com/watch?v=XTcf8g54RuU```
