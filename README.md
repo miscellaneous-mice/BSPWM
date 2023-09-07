@@ -68,6 +68,7 @@
 ``` xrandr --output display-name --mode resolution```
 - *You can find display by just typing ```xrandr```*
 - The shorcuts definition specified in comments may be wrong so kindly verify the code
+- Run tty-clock in terminal by ```tty_clock_time```
 
 ## References
 - ```https://www.youtube.com/watch?v=XTcf8g54RuU```
