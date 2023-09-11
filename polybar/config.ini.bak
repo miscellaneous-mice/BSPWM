@@ -17,16 +17,13 @@
 ;==========================================================
 
 [colors]
-background = #242933
-background-alt = #2E3440
-foreground = #dfdfdf
-primary = #ffff
-secondary = #4C566A
-alert = #4C566A
+background = #282A2E
+background-alt = #373B41
+foreground = #C5C8C6
+primary = #F0C674
+secondary = #8ABEB7
+alert = #A54242
 disabled = #707880
-green = #B3F9AF
-red = #F03051
-orange = #F99265
 
 [bar/example]
 width = 100%
@@ -44,23 +41,17 @@ border-size = 4pt
 border-color = #00000000
 
 padding-left = 0
-padding-right = 6
+padding-right = 1
 
 module-margin = 1
 
-separator = "  .  "
+separator = |
 separator-foreground = ${colors.disabled}
 
-
-font-0 = "Font Awesome 6 Free:style=Regular:pixelsize=10;2"
-font-1 = "Ubuntu:style=Bold:size=9;2"
-font-2 = "UbuntuMono Nerd Font:style=Bold:size=18;3"
-font-3 = "Font Awesome 6 Free:style=Solid:pixelsize=8;1"
-font-4 = "Font Awesome 6 Brands:pixelsize=8;1"
+font-0 = monospace;2
 
 modules-left = xworkspaces xwindow
-modules-right = memory cpu battery date
-
+modules-right = filesystem pulseaudio xkeyboard memory cpu wlan eth date
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -81,18 +72,18 @@ type = internal/xworkspaces
 label-active = %name%
 label-active-background = ${colors.background-alt}
 label-active-underline= ${colors.primary}
-label-active-padding = 4
+label-active-padding = 1
 
 label-occupied = %name%
-label-occupied-padding = 4
+label-occupied-padding = 1
 
 label-urgent = %name%
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 4
+label-urgent-padding = 1
 
 label-empty = %name%
 label-empty-foreground = ${colors.disabled}
-label-empty-padding = 4
+label-empty-padding = 1
 
 [module/xwindow]
 type = internal/xwindow
@@ -173,16 +164,6 @@ date-alt = %Y-%m-%d %H:%M:%S
 
 label = %date%
 label-foreground = ${colors.primary}
-
-[module/battery]
-
-type = internal/battery
-battery = BAT0
-adapter = AC
-
-;-- Most batteries never hit 100%
-full-at = 59
-label-charging = %percentage%%
 
 [settings]
 screenchange-reload = true
