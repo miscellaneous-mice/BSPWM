@@ -8,7 +8,7 @@
 - First install Arch linux
 - Go through the notes given at the end of the page
 - ```sudo pacman -S xorg xorg-server xorg-xinit xf86-video-fbdev git```
-- ```sudo pacman -S picom bspwm polybar sxhkd dunst feh alacritty```
+- ```sudo pacman -S picom bspwm polybar sxhkd feh alacritty```
 - ```git clone https://github.com/miscellaneous-mice/BSPWM.git``` (In the home directory)
 - Install the following dependencies given below. Feel free to choose!
 - copy the init files from BSPWM to home folder and delete duplicate default files
@@ -16,7 +16,7 @@
   cp ~/BSPWM/init_files/.bashrc ~/ (Delete the old bashrc file)
   cp ~/BSPWM/init_files/.xinitrc ~/
   ```
-- cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom dunst```
+- cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom```
 - Folder configuration
   ```
   - See which folder are missing before going to the next step
@@ -24,7 +24,6 @@
     ~/.config/sxkhd/
     ~/.config/picom/
     ~/.config/polybar/
-    ~/.config/dunst/
     ~/.config/rofi/
     ~/.themes/
     ~/.icons/
@@ -43,7 +42,6 @@
   -> cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
   -> cp /etc/xdg/picom.conf ~/.config/picom/
   -> cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
-  -> cp /etc/dunst/dunstrc ~/.config/dunst/
   -> cp ~/BSPWM/custom_commands/.my_custom_commands.sh ~/custom_commands/
   ```
 - Reboot ```sudo reboot```
