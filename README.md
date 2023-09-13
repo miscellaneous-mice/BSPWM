@@ -44,6 +44,11 @@
   -> cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
   -> cp ~/BSPWM/custom_commands/.my_custom_commands.sh ~/custom_commands/
   ```
+- Now make these files executable using ```chmod +x```
+  ```
+  ~/.config/bspwm/bspwmrc
+  ~/custom_commands/.my_custom_commands.sh
+  ```
 - Reboot ```sudo reboot```
 - Use lxappearance to apply the install the installed themes, icons and fonts.
 
