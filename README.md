@@ -63,10 +63,10 @@
 - rofi -> Used for searching our apps. i.e. similar to dmenu
 - polybar -> Our top bar
 - lxappearance -> Used to apply our theme, icons and fonts to the window manager and gtk-3 supported applications
-- nord theme ```(https://www.xfce-look.org/p/1267246/)``` -> Load into ~/.themes
-- nord icons ```(https://www.xfce-look.org/p/1937741)```  -> Load into ~/.icons
-- Jetbrains nerd fonts ```(https://www.nerdfonts.com/font-downloads)``` -> Load into ~/.fonts
-- Starship ```(https://starship.rs/)``` -> This is the theme applied to our alacritty terminal
+- nord theme (https://www.xfce-look.org/p/1267246/) -> Load into ~/.themes
+- nord icons (https://www.xfce-look.org/p/1937741)  -> Load into ~/.icons
+- Jetbrains nerd fonts (https://www.nerdfonts.com/font-downloads) -> Load into ~/.fonts
+- Starship (https://starship.rs/) -> This is the theme applied to our alacritty terminal
 
 ## Note
 - At the start I've install xf86-video-fbdev, but check which graphics driver you use and install that appropriately. If graphics drivers installed then skip this.
@@ -77,4 +77,4 @@
 - Run tty-clock in terminal by ```tty_clock_time```
 
 ## References
-- ```https://www.youtube.com/watch?v=XTcf8g54RuU```
+- https://www.youtube.com/watch?v=XTcf8g54RuU
