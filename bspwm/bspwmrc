@@ -16,6 +16,6 @@ feh --bg-fill /home/megame/BSPWM/wallpaper/blue.png
 #Autostart applications
 sxhkd &
 picom --config ~/.config/picom/picom.conf &
-dunst &
+#dunst &
 polybar &
 
