@@ -67,7 +67,7 @@ $ mkdir ~/custom_commands/
   $ cp ~/BSPWM/rofi/* ~/.config/rofi/ 
   $ cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
   $ cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
-  $ cp /etc/xdg/picom.conf ~/.config/picom/
+  $ cp ~/BSPWM/picom/picom.conf ~/.config/picom/
   $ cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
   $ cp ~/BSPWM/custom_commands/.my_custom_commands.sh ~/custom_commands/
   ```
