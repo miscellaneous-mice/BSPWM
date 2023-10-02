@@ -34,7 +34,8 @@ $ mkdir ~/Backup
 ```
 $ mkdir bspwm sxhkd polybar picom
 ```
-- Folder configuration
+
+## Folders and files configuration
 
 - These are the folder to be checked
 ```
@@ -76,6 +77,8 @@ $ mkdir ~/custom_commands/
   $ ~/custom_commands/.my_custom_commands.sh
   ```
 - Reboot ```$ sudo reboot```
+
+## Extras
 - Use lxappearance to apply the install the installed themes, icons and fonts.
 
 ## Dependencies
