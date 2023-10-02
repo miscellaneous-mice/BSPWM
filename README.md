@@ -105,9 +105,8 @@ $ sudo pacman -S unzip
 ```
 - Extract the downloaded files into appropriate directories. First cd into the folder where you've downloaded
 ```
-$ tar -xf Dracula.tar.xz -C ~/.themes/
-$ tar -xf candy-icons.tar.xz -C ~/.icons/
-$ tar -xf Bibata-Modern-Ice.tar.xz -C ~/.icons/
+$ tar -xf Nordic-darker.tar.xz -C ~/.themes/
+$ tar -xf Zafiro-Nord-Black-Blue.tar.xz -C ~/.icons/
 $ unzip JetBrainsMono.zip
 $ mv *.ttf ~/.fonts/
 ```
