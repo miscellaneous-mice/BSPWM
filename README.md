@@ -31,10 +31,6 @@ $ mv ~/.bashrc ~/Backup/
 $ cp ~/BSPWM/init_files/.bashrc ~/
 $ cp ~/BSPWM/init_files/.xinitrc ~/
 ```
-- cd into ~/.config folder and :
-```
-$ mkdir bspwm sxhkd polybar picom
-```
 
 ## Folders and files configuration
 
