@@ -87,8 +87,9 @@ $ mkdir ~/custom_commands/
 - feh -> Used to set wallpaper
 - firefox -> Browser duuuh
 - thunar -> File manager
-- alsamixer -> Used to control audio levels using our terminal
+- alsa-utils (alsamixer) -> Used to control audio levels using our terminal
 - alacritty -> Our terminal for window manager
+- htop -> To display hardware resources being used
 - tty-clock -> Simplistic terminal clock
 - rofi -> Used for searching our apps. i.e. similar to dmenu
 - polybar -> Our top bar
