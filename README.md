@@ -5,7 +5,7 @@
 ![BSPWM](https://github.com/miscellaneous-mice/BSPWM/assets/79500624/a222e133-3118-4060-b330-66baeb6fb99c)
 
 ## BSPWM Installation
-- First install Arch linux
+- First install Arch linux : https://github.com/miscellaneous-mice/Arch-install
 - Go through the notes [notes](https://github.com/miscellaneous-mice/BSPWM#note)
 - Install the display drivers and git.
 ```
