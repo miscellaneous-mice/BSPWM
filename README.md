@@ -66,10 +66,15 @@ $ mkdir ~/custom_commands/
   $ cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
   $ cp ~/BSPWM/sxhkd/sxhkdrc ~/.config/sxhkd/
   ```
-- Start the basic bspwm window manager
-  ```
-  $ startx
-  ```
+- Start the basic window manager (ignore all the errors in terminal)
+```
+$ startx
+```
+- These are the basic commands to navigate the window manager
+```
+alt + shift + Enter : open terminal
+alt + space : search programs
+```
 - Now to copy default config files into .config folder :
   ```
   $ cp ~/BSPWM/rofi/* ~/.config/rofi/ 
