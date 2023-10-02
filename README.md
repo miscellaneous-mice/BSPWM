@@ -64,7 +64,7 @@ $ mkdir ~/custom_commands/
 - Now to copy default config files into .config folder :
   ```
   $ cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
-  $ cp ~/BSPWM/sxkhd/sxkhdrc ~/.config/sxkhd/
+  $ cp ~/BSPWM/sxhkd/sxhkdrc ~/.config/sxhkd/
   $ cp ~/BSPWM/rofi/* ~/.config/rofi/ 
   $ cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
   $ cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
