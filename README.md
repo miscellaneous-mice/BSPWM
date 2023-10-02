@@ -26,11 +26,11 @@ $ mkdir ~/Backup
 ```
 - Install the following dependencies given below. Feel free to choose! [Dependencies](https://github.com/miscellaneous-mice/BSPWM#dependencies)
 - copy the init files from BSPWM to home folder and delete duplicate default files
-  ```
-  $ mv ~/.bashrc ~/Backup/
-  $ cp ~/BSPWM/init_files/.bashrc ~/
-  $ cp ~/BSPWM/init_files/.xinitrc ~/
-  ```
+```
+$ mv ~/.bashrc ~/Backup/
+$ cp ~/BSPWM/init_files/.bashrc ~/
+$ cp ~/BSPWM/init_files/.xinitrc ~/
+```
 - cd into ~/.config folder and :
 ```
 $ mkdir bspwm sxhkd polybar picom
@@ -62,10 +62,10 @@ $ mv {directory}/* ~/Backup/
 $ mkdir ~/custom_commands/
 ```
 - Copy the basic window manager files
-  ```
-  $ cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
-  $ cp ~/BSPWM/sxhkd/sxhkdrc ~/.config/sxhkd/
-  ```
+```
+$ cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
+$ cp ~/BSPWM/sxhkd/sxhkdrc ~/.config/sxhkd/
+```
 - Start the basic window manager (ignore all the errors in terminal)
 ```
 $ startx
@@ -76,19 +76,19 @@ alt + shift + Enter : open terminal
 alt + space : search programs
 ```
 - Now to copy default config files into .config folder :
-  ```
-  $ cp ~/BSPWM/rofi/* ~/.config/rofi/ 
-  $ cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
-  $ cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
-  $ cp ~/BSPWM/picom/picom.conf ~/.config/picom/
-  $ cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
-  $ cp ~/BSPWM/custom_commands/.my_custom_commands.sh ~/custom_commands/
-  ```
+```
+$ cp ~/BSPWM/rofi/* ~/.config/rofi/ 
+$ cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
+$ cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
+$ cp ~/BSPWM/picom/picom.conf ~/.config/picom/
+$ cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
+$ cp ~/BSPWM/custom_commands/.my_custom_commands.sh ~/custom_commands/
+```
 - Now make these files executable using ```$ chmod +x {filename}```
-  ```
-  $ ~/.config/bspwm/bspwmrc
-  $ ~/custom_commands/.my_custom_commands.sh
-  ```
+```
+$ ~/.config/bspwm/bspwmrc
+$ ~/custom_commands/.my_custom_commands.sh
+```
 - Reboot ```$ sudo reboot```
 
 ## Extras
