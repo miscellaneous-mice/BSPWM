@@ -85,7 +85,7 @@ $ mkdir ~/custom_commands/
 ```
 $ git clone https://github.com/xorg62/tty-clock.git
 $ cd tty-clock
-$ make install
+$ sudo make install
 ```
 
 ## Dependencies
