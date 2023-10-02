@@ -25,7 +25,7 @@ $ git clone https://github.com/miscellaneous-mice/BSPWM.git
 $ mkdir ~/Backup
 ```
 - Install the following dependencies given below. Feel free to choose! [Dependencies](https://github.com/miscellaneous-mice/BSPWM#dependencies)
-- copy the init files from BSPWM to home folder and delete duplicate default files
+- copy the init files from BSPWM to home folder and move duplicate default files to backup
 ```
 $ mv ~/.bashrc ~/Backup/
 $ cp ~/BSPWM/init_files/.bashrc ~/
