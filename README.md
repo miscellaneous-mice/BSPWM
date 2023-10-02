@@ -45,6 +45,8 @@ $ mkdir bspwm sxhkd polybar picom
 ~/.config/picom
 ~/.config/polybar
 ~/.config/rofi
+~/.config/neofetch
+~/.config/alacritty
 ~/.themes
 ~/.icons
 ~/.fonts
