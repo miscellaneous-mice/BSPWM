@@ -41,7 +41,7 @@ $ mkdir bspwm sxhkd polybar picom
 - These are the directories to be checked
 ```
 ~/.config/bspwm
-~/.config/sxkhd
+~/.config/sxhkd
 ~/.config/picom
 ~/.config/polybar
 ~/.config/rofi
