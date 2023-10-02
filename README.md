@@ -54,7 +54,7 @@ $ mkdir bspwm sxhkd polybar picom
   ```
   $ cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
   $ cp ~/BSPWM/sxkhd/sxkhdrc ~/.config/sxkhd/
-  $ cp ~/BSPWM/rofi/config.rasi ~/BSPWM/rofi/nord.rasi ~/.config/rofi/ 
+  $ cp ~/BSPWM/rofi/* ~/.config/rofi/ 
   $ cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
   $ cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
   $ cp /etc/xdg/picom.conf ~/.config/picom/
