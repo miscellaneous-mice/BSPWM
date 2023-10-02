@@ -43,9 +43,6 @@ $ cp ~/BSPWM/init_files/.xinitrc ~/
 ~/.config/rofi
 ~/.config/neofetch
 ~/.config/alacritty
-~/.themes
-~/.icons
-~/.fonts
 ```
 - If any of these folders are missing and make the missing directories
 ```
