@@ -6,17 +6,34 @@
 
 ## BSPWM Installation
 - First install Arch linux
-- Go through the notes given at the end of the page
-- ```sudo pacman -S xorg xorg-server xorg-xinit git```
-- ```sudo pacman -S picom bspwm polybar sxhkd feh alacritty```
-- ```git clone https://github.com/miscellaneous-mice/BSPWM.git``` (In the home directory)
-- Install the following dependencies given below. Feel free to choose!
+- Go through the notes [notes](https://github.com/miscellaneous-mice/BSPWM#note)
+- Install the display drivers and git.
+```
+$ sudo pacman -S xorg xorg-server xorg-xinit git
+```
+- Installing some necessary packages
+```
+$ sudo pacman -S picom bspwm polybar sxhkd feh alacritty
+```
+- Git clone the repo into home directory
+```
+$ git clone https://github.com/miscellaneous-mice/BSPWM.git
+```
+- Make a backup folder
+```
+$ mkdir ~/Backup
+```
+- Install the following dependencies given below. Feel free to choose! [Dependencies](https://github.com/miscellaneous-mice/BSPWM#dependencies)
 - copy the init files from BSPWM to home folder and delete duplicate default files
   ```
-  cp ~/BSPWM/init_files/.bashrc ~/ (Delete the old bashrc file)
-  cp ~/BSPWM/init_files/.xinitrc ~/
+  $ mv ~/.bashrc ~/Backup/
+  $ cp ~/BSPWM/init_files/.bashrc ~/
+  $ cp ~/BSPWM/init_files/.xinitrc ~/
   ```
-- cd into ~/.config folder and : ``` mkdir bspwm sxhkd polybar picom```
+- cd into ~/.config folder and :
+```
+$ mkdir bspwm sxhkd polybar picom
+```
 - Folder configuration
   ```
   - See which folder are missing before going to the next step
@@ -28,28 +45,28 @@
     ~/.themes/
     ~/.icons/
     ~/.fonts/
-  - Else mkdir these folders
+  - Else mkdir these folders : $ mkdir {missing-folder}
 
   - Make the custom commands folder
-      mkdir ~/custom_commands/
+      $ mkdir ~/custom_commands/
   ```
 - Now to copy default config files into .config folder :
   ```
-  -> cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
-  -> cp ~/BSPWM/sxkhd/sxkhdrc ~/.config/sxkhd/
-  -> cp ~/BSPWM/rofi/config.rasi ~/BSPWM/rofi/nord.rasi ~/.config/rofi/ 
-  -> cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
-  -> cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
-  -> cp /etc/xdg/picom.conf ~/.config/picom/
-  -> cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
-  -> cp ~/BSPWM/custom_commands/.my_custom_commands.sh ~/custom_commands/
+  $ cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
+  $ cp ~/BSPWM/sxkhd/sxkhdrc ~/.config/sxkhd/
+  $ cp ~/BSPWM/rofi/config.rasi ~/BSPWM/rofi/nord.rasi ~/.config/rofi/ 
+  $ cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
+  $ cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
+  $ cp /etc/xdg/picom.conf ~/.config/picom/
+  $ cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
+  $ cp ~/BSPWM/custom_commands/.my_custom_commands.sh ~/custom_commands/
   ```
-- Now make these files executable using ```chmod +x```
+- Now make these files executable using ```$ chmod +x {filename}```
   ```
-  ~/.config/bspwm/bspwmrc
-  ~/custom_commands/.my_custom_commands.sh
+  $ ~/.config/bspwm/bspwmrc
+  $ ~/custom_commands/.my_custom_commands.sh
   ```
-- Reboot ```sudo reboot```
+- Reboot ```$ sudo reboot```
 - Use lxappearance to apply the install the installed themes, icons and fonts.
 
 ## Dependencies
@@ -69,8 +86,10 @@
 - Starship (https://starship.rs/) -> This is the theme applied to our alacritty terminal
 
 ## Note
-- In BSPWM/init_files/.xinitrc file replace the display name and resolution with yours
-``` xrandr --output display-name --mode resolution```
+- In ```~/.xinitrc``` file replace the display name and resolution with yours
+```
+xrandr --output {display-name} --mode resolution
+```
 - *You can find display by just typing ```xrandr```*
 - The shorcuts definition specified in comments may be wrong so kindly verify the code
 - Run tty-clock in terminal by ```tty_clock_time```
