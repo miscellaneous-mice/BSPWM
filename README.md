@@ -96,7 +96,6 @@ $ sudo make install
 - alsa-utils (alsamixer) -> Used to control audio levels using our terminal
 - alacritty -> Our terminal for window manager
 - htop -> To display hardware resources being used
-- tty-clock -> Simplistic terminal clock
 - rofi -> Used for searching our apps. i.e. similar to dmenu
 - polybar -> Our top bar
 - lxappearance -> Used to apply our theme, icons and fonts to the window manager and gtk-3 supported applications
