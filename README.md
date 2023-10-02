@@ -81,6 +81,12 @@ $ mkdir ~/custom_commands/
 
 ## Extras
 - Use lxappearance to apply the install the installed themes, icons and fonts.
+- Install tty-clock
+```
+$ git clone https://github.com/xorg62/tty-clock.git
+$ cd tty-clock
+$ make install
+```
 
 ## Dependencies
 - code -> VScode
