@@ -61,10 +61,17 @@ $ mv {directory}/* ~/Backup/
 ```
 $ mkdir ~/custom_commands/
 ```
-- Now to copy default config files into .config folder :
+- Copy the basic window manager files
   ```
   $ cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
   $ cp ~/BSPWM/sxhkd/sxhkdrc ~/.config/sxhkd/
+  ```
+- Start the basic bspwm window manager
+  ```
+  $ startx
+  ```
+- Now to copy default config files into .config folder :
+  ```
   $ cp ~/BSPWM/rofi/* ~/.config/rofi/ 
   $ cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
   $ cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
