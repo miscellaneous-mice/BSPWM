@@ -89,8 +89,28 @@ $ ~/custom_commands/.my_custom_commands.sh
 ```
 - Reboot ```$ sudo reboot```
 
-## Extras
-- Use lxappearance to apply the install the installed themes, icons and fonts.
+## Setting themes, icons, fonts, Mouse cursors, wallpapers, etc.
+- First download these files into the Downloads folder
+  - Theme -> https://www.xfce-look.org/p/1267246/
+  - Icons -> https://www.xfce-look.org/p/1937741
+  - Fonts -> https://www.nerdfonts.com/font-downloads (Jetbrains nerd fonts)
+- Make the appropriate directories so lxappearance can recognise them
+```
+$ cd ~/
+$ mkdir .icons .themes .fonts
+```
+- Download the appropriate tools for unzipping files
+```
+$ sudo pacman -S unzip
+```
+- Extract the downloaded files into appropriate directories. First cd into the folder where you've downloaded
+```
+$ tar -xf Dracula.tar.xz -C ~/.themes/
+$ tar -xf candy-icons.tar.xz -C ~/.icons/
+$ tar -xf Bibata-Modern-Ice.tar.xz -C ~/.icons/
+$ unzip JetBrainsMono.zip
+$ mv *.ttf ~/.fonts/
+```
 - Install tty-clock
 ```
 $ git clone https://github.com/xorg62/tty-clock.git
