@@ -35,21 +35,30 @@ $ mkdir ~/Backup
 $ mkdir bspwm sxhkd polybar picom
 ```
 - Folder configuration
-  ```
-  - See which folder are missing before going to the next step
-    ~/.config/bspwm/
-    ~/.config/sxkhd/
-    ~/.config/picom/
-    ~/.config/polybar/
-    ~/.config/rofi/
-    ~/.themes/
-    ~/.icons/
-    ~/.fonts/
-  - Else mkdir these folders : $ mkdir {missing-folder}
 
-  - Make the custom commands folder
-      $ mkdir ~/custom_commands/
-  ```
+- These are the folder to be checked
+```
+~/.config/bspwm
+~/.config/sxkhd
+~/.config/picom
+~/.config/polybar
+~/.config/rofi
+~/.themes
+~/.icons
+~/.fonts
+```
+- If any of these folders are missing and make the missing directories
+```
+$ mkdir {missing-directory}
+```
+- Also make sure these specified directories are empty else move then into ```~/Backup/```
+```
+$ mv {directory}/* ~/Backup/
+```
+- Make the custom commands folder
+```
+$ mkdir ~/custom_commands/
+```
 - Now to copy default config files into .config folder :
   ```
   $ cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
