@@ -11,7 +11,7 @@
 ```
 $ sudo pacman -S xorg xorg-server xorg-xinit git
 ```
-- Installing some necessary packages
+- Necessary packages
 ```
 $ sudo pacman -S picom bspwm polybar sxhkd feh alacritty
 ```
