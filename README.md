@@ -35,23 +35,23 @@ $ cp ~/BSPWM/init_files/.xinitrc ~/
 ## Folders and files configuration
 
 - These are the directories to be checked
-```
-~/.config/bspwm
-~/.config/sxhkd
-~/.config/picom
-~/.config/polybar
-~/.config/rofi
-~/.config/neofetch
-~/.config/alacritty
-```
-- If any of these folders are missing and make the missing directories
-```
-$ mkdir {missing-directory}
-```
-- Also make sure these specified directories are empty else move then into ```~/Backup/```
-```
-$ mv {directory}/* ~/Backup/
-```
+  ```
+  ~/.config/bspwm
+  ~/.config/sxhkd
+  ~/.config/picom
+  ~/.config/polybar
+  ~/.config/rofi
+  ~/.config/neofetch
+  ~/.config/alacritty
+  ```
+  - If any of these folders are missing and make the missing directories
+  ```
+  $ mkdir {missing-directory}
+  ```
+  - Also make sure these specified directories are empty else move then into ```~/Backup/```
+  ```
+  $ mv {directory}/* ~/Backup/
+  ```
 - Make the custom commands folder
 ```
 $ mkdir ~/custom_commands/
