@@ -73,7 +73,6 @@ alt + space : search programs
 - Now to copy default config files into .config folder :
 ```
 $ cp ~/BSPWM/rofi/* ~/.config/rofi/ 
-$ cp ~/BSPWM/neofetch/config.conf ~/.config/neofetch/
 $ cp ~/BSPWM/alacritty/alacritty.yml ~/.config/alacritty/
 $ cp ~/BSPWM/picom/picom.conf ~/.config/picom/
 $ cp ~/BSPWM/polybar/config.ini ~/.config/polybar/
