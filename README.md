@@ -59,6 +59,7 @@ $ mkdir ~/custom_commands/
 - Copy the basic window manager files
 ```
 $ cp ~/BSPWM/bspwm/bspwmrc ~/.config/bspwm/
+$ chmod +x ~/.config/bspwm/bspwmrc
 $ cp ~/BSPWM/sxhkd/sxhkdrc ~/.config/sxhkd/
 ```
 - Start the basic window manager (ignore all the errors in terminal)
