@@ -103,10 +103,10 @@ $ sudo pacman -S unzip
 ```
 - Extract the downloaded files into appropriate directories. First cd into the folder where you've downloaded
 ```
-$ tar -xf Nordic-darker.tar.xz -C ~/.themes/
-$ tar -xf Zafiro-Nord-Black-Blue.tar.xz -C ~/.icons/
+$ sudo tar -xf Nordic-darker.tar.xz -C /usr/share/themes/
+$ sudo tar -xf Zafiro-Nord-Black-Blue.tar.xz -C /usr/share/icons/
 $ unzip JetBrainsMono.zip
-$ mv *.ttf ~/.fonts/
+$ sudo mv *.ttf /usr/share/fonts/
 ```
 - Install tty-clock
 ```
